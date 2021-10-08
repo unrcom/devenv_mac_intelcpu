@@ -62,7 +62,7 @@ https://code.visualstudio.com の Updatesタブで最新リリースのバージ
 
 #### 環境設定を確認する
 
-- [管理](歯車)マーク > 設定 > save で検索
+- [管理]（歯車）マーク > 設定 > save で検索
 - 「Editor: Format On Save」 にチェックが入っているか確認し、なければチェックする
 - 右上の 「設定 (JSON) を開く」 のアイコンをクリックする
 - 以下の設定が入っているか確認し、なければ追加する
@@ -74,8 +74,105 @@ https://code.visualstudio.com の Updatesタブで最新リリースのバージ
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 ```
-  
-  
+
+## Chrome
+
+インストールされていない場合はインストールしてください
+
+- 公式サイトから googlechrome.dmg (Mac OS 版 Chrome DMG ユニバーサル インストーラ（x86、ARM)) をダウンロード
+- googlechrome.dmg をダブルクリック
+- Applications フォルダへ drag and drop
+- Launchpad から起動する
+
+### Webフロントエンドの開発に必要な拡張機能をインストールする
+
+以下の拡張機能が必要になるのでインストールされていない場合はインストールしてください
+
+- React Developer Tools
+- Redux DevTools
+- ModHeader
+
+## Docker
+
+- https://www.docker.com へアクセス
+- まず右上の　Sign in　へ
+- アカウントがない場合は Sign Up
+- Sign in　済の状態で [Products] をホバー > [Docker Desktop] をクリックする
+- [Mac with Intel Chip] をクリックする
+- Docker.dmg ファイルをダブルクリック
+- 「drog and drop」画面で Docker.dmg ファイルを Applications フォルダへ drop
+- Launchpad Docker.app を起動する
+  - 「Docker Desktop needs privileged access」のウィンドウが表示されたら [OK] をクリックしてヘルパーをインストールする
+  - デスクトップの右上 Dockerアイコンがあるはずなのでこれをクリックして「Preferens...」を選択
+  - 「General」の「Start Docker Desktop when you log in」にチェックが付いているか確認する (普段は起動したくないのであればこのチェックは外し、仕事前にチェックを入れてPCを再起動してください)
+- Doker Desktop にログインする
+  - デスクトップの右上 Dockerアイコンをクリックして「Dashboard」を選択
+  - 起動したダッシュボードの右上で、自分の Docker id で　Sign in 済であることを確認する
+  - Sign in　していなければ、あらためて Sign in する
+  - Doker Desktop　(Dashboard) は閉じても問題ありません
+- インストール確認
+
+```
+$ docker -v
+```
+
+## Git
+
+- まず Git がインストールされているか確認しましょう
+
+```
+$ git --version
+```
+
+インストールされていない場合は以下を実施します
+
+- Git は Homebrew でインストールするので、Homebrew　がインストールされているか確認してみましょう
+
+```
+$ brew -v
+```
+
+- インストールされていない場合は [公式ページ](https://brew.sh/index_ja) のインストールコマンドを実行する
 
 
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
+- Git のインストールは以下のコマンドを実行する
+
+```
+$ brew install git
+```
+
+インストールが終わったらバージョンを確認してみてください
+
+```
+$ git --version
+```
+
+Git のインストール後はユーザ情報を登録します
+
+- 現在のユーザ情報を確認するコマンド
+
+```
+$ git config --global -l
+```
+
+以下の３つの設定が確認できない場合は設定する
+
+- user.name
+- user.email
+- core.quotepath
+
+設定するコマンド (xxxx 部分は適当でいいですがメールアドレスが有効なものを指定してください)
+
+```
+$ git config --global user.name "xxxx"
+$ git config --global user.email "xxxx@xxxx"
+$ git config --global core.quotepath false
+```
+
+設定後は ``` git config --global -l ``` で設定を確認しておきましょう
+
+end of md
