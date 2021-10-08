@@ -23,7 +23,7 @@ https://iterm2.com の Newsタブで最新リリースのバージョンがわ�
 
 ### iTerm2 がインストールされていない場合
 
-- https://iterm2.com　の　[Download]　で iTerm.app がダウンロードできるので アプリケーションフォルダへ
+- https://iterm2.com　 の　[Download]　で iTerm.app がダウンロードできるので アプリケーションフォルダへ
 
 ## VSCode
 
