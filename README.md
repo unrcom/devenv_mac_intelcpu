@@ -1,6 +1,15 @@
 # devenv_mac_intelcpu
 
-React + Redux Toolkit + TypeScript　を用いた Webフロントエンドの開発環境を　Docker container 上に構築する手順です
+Intel chip の macOS PC に、Webフロントエンドの開発に必要なツールをインストールする手順です
+
+## Over view
+
+- iTerm2
+- VSCode
+- Chrome
+- Docker Desktop
+- Git
+- 
 
 ## iTerm2
 
@@ -175,22 +184,4 @@ $ git config --global core.quotepath false
 
 設定後は ``` git config --global -l ``` で設定を確認しておきましょう
 
-## プロジェクトフォルダを作成する
-
-firebase_app というプロジェクトの環境を構築する場合の手順です (firebase_app　という記述は、プロジェクトごとに違う名称に置き換えてください)
-
-```
-$ cd
-$ pwd
-/Users/r2
-$ mkdir firebase_app
-$ cd firebase_app
-$
-```
-
-## docker-compose.yml
-
-
-
-
-end of md
+end of md, thank you for your attention
