@@ -9,7 +9,6 @@ Intel chip の macOS PC に、Webフロントエンドの開発に必要なツ�
 - Chrome
 - Docker Desktop
 - Git
-- 
 
 ## iTerm2
 
@@ -83,6 +82,13 @@ https://code.visualstudio.com の Updatesタブで最新リリースのバージ
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 ```
+
+#### vscode-icons
+
+必須の拡張機能ではありませんが、VSCode が少し使いやすくなりちょっとだけ楽しくなれます
+
+- [拡張機能]マーク > 「vs icons」で検索
+- インストールされていない場合はインストールする
 
 ## Chrome
 
