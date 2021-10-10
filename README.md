@@ -89,6 +89,7 @@ https://code.visualstudio.com の Updatesタブで最新リリースのバージ
 
 - [拡張機能]マーク > 「vs icons」で検索
 - インストールされていない場合はインストールする
+- 「Select File Icon Theme」 と聞かれたら [VSCode Icons] を選択する
 
 ## Chrome
 
