@@ -33,6 +33,10 @@ https://iterm2.com の Newsタブで最新リリースのバージョンがわ�
 
 - https://iterm2.com　 の　[Download]　で iTerm.app がダウンロードできるので アプリケーションフォルダへ
 
+#### (お好みで) タブ選択を左に表示したいが、その設定をいつも忘れてしまうのでメモ
+
+- iTerm2 > Preferences... > Appearance > Tab bar location
+
 ## VSCode
 
 ### VSCode がインストール済みか確認する
