@@ -143,6 +143,18 @@ https://code.visualstudio.com の Updatesタブで最新リリースのバージ
   - 起動したダッシュボードの右上で、自分の Docker id で　Sign in 済であることを確認する
   - Sign in　していなければ、あらためて Sign in する
   - Doker Desktop　(Dashboard) は閉じても問題ありません
+- iTerm2 を起動する
+  - Launchpad または Finder > アプリケーション から iTerm.app をクリック (またはダブルクリック) して iTerm2 を起動します
+  - プロンプトをシンプルにするには PROMPT='$ ' とタイプして return してください
+
+```
+Last login: Sun Oct 17 17:29:55 on ttys001
+r@ishi32s-MacBook-Air Docker % PROMPT='$ '
+$
+```
+
+上記の例ではプロンプトを r@ishi32s-MacBook-Air Docker % から $ に変更しています (これ以降のコマンド入力ではプロンプトを '$' で表しています)
+
 - インストール確認
 
 ```
