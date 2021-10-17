@@ -144,6 +144,14 @@ $ docker -v
 $ git --version
 ```
 
+git がインストールされている場合はバージョンが表示されます
+
+```
+$ git --version
+git version 2.33.0
+$
+```
+
 インストールされていない場合は以下を実施します
 
 - Git は Homebrew でインストールするので、Homebrew　がインストールされているか確認してみましょう
