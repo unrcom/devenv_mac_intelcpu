@@ -87,6 +87,19 @@ https://code.visualstudio.com の Updatesタブで最新リリースのバージ
   },
 ```
 
+上記の環境設定を含んだ設定 (JSON) ファイルの全体は、一例ですが以下のようになります
+
+```
+{
+  "workbench.iconTheme": "vscode-icons",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
+```
+
 #### vscode-icons
 
 必須の拡張機能ではありませんが、VSCode が少し使いやすくなりちょっとだけ楽しくなれます
