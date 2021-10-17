@@ -145,11 +145,11 @@ https://code.visualstudio.com の Updatesタブで最新リリースのバージ
   - Doker Desktop　(Dashboard) は閉じても問題ありません
 - iTerm2 を起動する
   - Launchpad または Finder > アプリケーション から iTerm.app をクリック (またはダブルクリック) して iTerm2 を起動します
-  - プロンプトをシンプルにするには PROMPT='$ ' とタイプして return してください
+  - (お好みで) プロンプトをシンプルにするには
+    - export PS1='$ ' とタイプして return してください
 
 ```
-Last login: Sun Oct 17 17:29:55 on ttys001
-r@ishi32s-MacBook-Air Docker % PROMPT='$ '
+r@ishi32s-MacBook-Air Docker % export PS1='$ '
 $
 ```
 
