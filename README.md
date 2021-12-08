@@ -124,6 +124,7 @@ https://code.visualstudio.com の Updatesタブで最新リリースのバージ
 - React Developer Tools
 - Redux DevTools
 - ModHeader
+- JSON Formatter
 
 ## Docker
 
