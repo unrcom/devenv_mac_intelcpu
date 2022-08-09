@@ -229,4 +229,30 @@ $ git config --global core.quotepath false
 
 設定後は ``` git config --global -l ``` で設定を確認しておきましょう
 
+2022/08/09 追記
+
+本日 M1 Mac mini にて上記手順を実施後　``` docker-compose up ``` したところ、以下のエラーが発生しました。
+
+```
+c22@c22noMac-mini sirokuro-dev6 % docker-compose up
+fork/exec /usr/local/bin/docker-compose-v1: bad CPU type in executable
+c22@c22noMac-mini sirokuro-dev6 %
+```
+
+これは Docker Desktop にて以下の設定をすると、エラーが解消できました。
+
+- Preferences (画面右上の歯車アイコン)
+- Use Doecker Compose V2 をチェックする
+- [Apply & Restart]
+
+```
+c22@c22noMac-mini sirokuro-dev6 % docker-compose up
+[+] Running 1/0
+ ⠿ Container sirokuro-dev6  Created                                        0.1s
+Attaching to sirokuro-dev6
+sirokuro-dev6  | Welcome to Node.js v18.7.0.
+sirokuro-dev6  | Type ".help" for more information.
+
+```
+
 end of md, thank you for your attention
